@@ -287,9 +287,10 @@ body{
 }
 
 #btnborrarfotos{
-    position: relative;
+
+    position: absolute;
     margin-top: 15px;
-    margin-left: 60%;
+    
     height: 50px;
     width: 30%;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -298,7 +299,7 @@ body{
     border-radius: 10px;
     background-color: #5bcaf7;
     top: auto;
-    bottom: 2px;
+    bottom: -17%;
 }
 
 #btnborrarfotos:hover {

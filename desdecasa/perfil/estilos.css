@@ -145,39 +145,95 @@ img{
     top: -92px;
     left: 3%;
 }
+	.menu ul li a:hover + ul, .menu .submenu:hover{
+		display: block;
+	}
 
-#descripcion{
+#foto_P{
     position: relative;
     border: solid black;
-    margin-top: 1%;
-    width: 30%;
+    width: 16%;
     height: 30%;
-    margin-left: 35%;
+    left: 10%;
+    border-radius: 50%;
+    top: -5%;
     background-color: #5bcaf7;
-    border-radius: 20px;
     border-color: white;
     box-shadow: 3px 10px 10px rgba(0,0,0,0.2);
     text-align: center;
 }
 
-#btn_comp{
+#nombre_U{
     position: relative;
-    margin-left: 80%;
-    width: 140px;
-    background-color: #00c3ff;
-    height: 50px;
-    bottom: 30px;
-    padding: 15px;
-    font-size: 15px;
-    border-radius: 10px;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
+    border: solid black 2px;
+    width: 20%;
+    height: 5%;
+    left: 35%;
+    top: -30%;
+    border-radius: 5px;
     box-shadow: 3px 10px 10px rgba(0,0,0,0.2);
 
 }
 
-#btn_comp:hover {
-    background-color: #fffb00d7;
-    color: rgb(0, 0, 0);
+#nombre_usuario{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+}
 
+#descripcion{
+    position: relative;
+    border: solid white;
+    width: 30%;
+    height: 30%;
+    left: 35%;
+    top: -20%;
+    background-color: #5bcaf7;
+    box-shadow: 3px 10px 10px rgba(0,0,0,0.2);
+    border-radius: 5px;
+
+}
+
+#nombre_p{
+    position: relative;
+    height: 20%;
+    width: 98%;
+    left: 1%;
+    top: 1%;
+}
+
+#tel{
+    position: relative;
+    height: 20%;
+    width: 98%;
+    left: 1%;
+    top: 3%;
+
+}
+
+#correo{
+    position: relative;
+    height: 20%;
+    width: 98%;
+    left: 1%;
+    top: 5%;
+
+}
+
+#descripcion_p{
+    position: relative;
+    height: 31%;
+    width: 98%;
+    left: 1%;
+    top: 7%;
+
+}
+
+#editar{
+    position: relative;
+    left: 56.9%;
+    top: -260px;
+    height: 10%;
+    width: 10%;
 }

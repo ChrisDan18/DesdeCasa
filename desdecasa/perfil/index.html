@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Post</title>
-    <link rel="stylesheet" href="estilos.css">
+ <link rel="stylesheet" href="estilos.css">
+    <title>Perfil usuario</title>
 </head>
 <body>
     <div id="encabezado" class="header">
@@ -33,22 +33,34 @@
         </div>
     </div>
 
+
     <section>
         <div id="buscador">
             <form autocomplete="off">
             <input id="input2" type="text" name="q" placeholder="Buscar"></form>
         </div>
     </section>
+    <div id="foto_P"> <p> foto perfil</p> </div>
 
-    <div id="n_producto">
-        <h1>Nombre del producto</h1>
+    <div id="nombre_U"> 
+
+        <input type="text" name="nombre usuario" id="nombre_usuario" placeholder="Nombre de usuario">
+
     </div>
-    
-    <div id="foto">foto </div>
 
-    <div id="descripcion">  <p>Descripcion del producto </p>  </div>
+    <p><a href="#" id="editar">Editar</a></p>
 
-    <input type="button" value="Comprar" id="btn_comp">
+    <div id="descripcion">
+        
+        <input type="text" name="Nombre personal" id="nombre_p" placeholder="Nombre personal">
+
+        <input type="tel" name="Numero de contacto" id="tel" placeholder="Numero de contacto">
+
+        <input type="text" name="Correo" id="correo" placeholder="E-mail">
+
+        <input type="text" name="Descripcion" id="descripcion_p" placeholder="Descrripcion personal" >
+    </div>
+
 
 </body>
 </html>
